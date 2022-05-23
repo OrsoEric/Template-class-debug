@@ -1,0 +1,20 @@
+Start Debug!
+-->> "int main()" |
+	OrangeBot Projects
+	-->> "bool test_bench()" |
+		-->> "User::Dummy::Dummy()" | This: 006efec0
+			-->> "bool User::Dummy::init_class_vars()" |
+			<<-- "bool User::Dummy::init_class_vars()" |
+		<<-- "User::Dummy::Dummy()" |
+		-->> "const char* User::Dummy::get_error_description()" |
+		<<-- "const char* User::Dummy::get_error_description()" | OK
+		-->> "User::Dummy::Error_code User::Dummy::get_error()" |
+			-->> "bool User::Dummy::error_recovery()" |
+			<<-- "bool User::Dummy::error_recovery()" |
+		<<-- "User::Dummy::Error_code User::Dummy::get_error()" |
+	<<-- "bool test_bench()" |
+	-->> "User::Dummy::~Dummy()" | This: 006efec0
+	<<-- "User::Dummy::~Dummy()" |
+<<-- "int main()" |
+
+Debug has Ended!

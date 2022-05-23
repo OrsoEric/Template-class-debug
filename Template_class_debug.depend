@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1652805501 source:c:\data\project\project programming\cpp examples\template_class_debug\class.cpp
+	<cstdio>
+	"debug.h"
+	<cstdio>
+	<iostream>
+	"class.h"
+
+1646331465 c:\data\project\project programming\cpp examples\template_class_debug\debug.h
+	<cstdio>
+
+1652805429 c:\data\project\project programming\cpp examples\template_class_debug\class.h
+
+1578493203 source:c:\data\project\project programming\cpp examples\template_class_debug\debug.cpp
+	<cstdio>
+	"debug.h"
+
+1652805137 source:c:\data\project\project programming\cpp examples\template_class_debug\example.cpp
+	<cstdio>
+	<iostream>
+	"debug.h"
+	"class.h"
+
